@@ -95,5 +95,26 @@ console.log(st);
 ```
 
 
+8. spread operator can be used for arrays and objects:
+
+
+example for object:
+```javascript
+const first = {"name": "Mosh"};
+const second = {"age": 18};
+
+const clone = {...first, ...second};
+```
+
+also spread operator can be used for cloning an object:
+
+```javascript
+const first = {"name": "Mosh"};
+const clone = {...first}
+```
+
+
+   
+
 
 
