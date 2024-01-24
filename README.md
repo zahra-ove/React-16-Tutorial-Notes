@@ -114,6 +114,9 @@ const clone = {...first}
 ```
 
 
+9. class in javascript -> name in PascalCase mode 
+
+
    
 
 
