@@ -61,3 +61,39 @@ with `bind` method, we changed the `this` reference. now `this` references to `p
 As we told, every function in javascript is an object. so on `person.walk` which is a function (so it is an object also) we access on `bind` method and other methods also.
 
 
+
+7. object destructuring:
+
+``` javascript
+const address  = {
+  street: 'street one',
+  city: 'NY',
+  country: 'US'  
+};
+
+
+const { street, city, country } = address;
+
+console.log(street);
+console.log(city);
+console.log(country);
+```
+
+
+we could also, extract only specific property from address object:
+
+```javascript
+const { street } = address;
+console.log(street);
+```
+
+also we could change the name of variable by defining an alias for it:
+
+```javascript
+const { street:st } = address;
+console.log(st);
+```
+
+
+
+
