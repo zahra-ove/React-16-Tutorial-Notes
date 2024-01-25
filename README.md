@@ -114,7 +114,15 @@ const clone = {...first}
 ```
 
 
-9. class in javascript -> name in PascalCase mode 
+9. class in javascript -> name in PascalCase mode
+
+10. `zen coding` techniques:
+
+example: type this line in any IDE : `table.table>thead>tr>th*4` and then press `Tab` on keyboard.
+
+11.the component that owns a piece of the state, should be the one modifying it.
+
+
 
 
    
