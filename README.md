@@ -121,6 +121,17 @@ const clone = {...first}
 example: type this line in any IDE : `table.table>thead>tr>th*4` and then press `Tab` on keyboard.
 
 11.the component that owns a piece of the state, should be the one modifying it.
+----------------------------------------------------
+
+12. comparison of `state` in class component and functional component in React:
+
+State in Class Components:
+    - State Merging: setState() automatically merges the updated state with the existing state.
+    - Asynchronous State Updates: State updates in class components might be asynchronous, meaning you can't rely on the state to immediately reflect the changes after calling setState().
+
+State in Functional Components (with Hooks):
+    - State Merging: Unlike class components, state updates in functional components don't automatically merge. Instead, you have to manage the merging yourself, usually by spreading the previous state, e.g., setState(prevState => ({ ...prevState, newValue })).
+    - Synchronous Updates: State updates in functional components are synchronous. After calling the setter function, the state is immediately updated, and the component re-renders.
 
 
 
