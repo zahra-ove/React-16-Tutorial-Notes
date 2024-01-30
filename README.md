@@ -121,6 +121,8 @@ const clone = {...first}
 example: type this line in any IDE : `table.table>thead>tr>th*4` and then press `Tab` on keyboard.
 
 11.the component that owns a piece of the state, should be the one modifying it.
+
+
 ----------------------------------------------------
 
 12. comparison of `state` in class component and functional component in React:
