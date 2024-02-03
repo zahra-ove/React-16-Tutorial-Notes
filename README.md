@@ -145,6 +145,7 @@ list of all npm packages:
 
 ----------------------------------------------------
 
+in webstorm, install `react snippet` plugin and then for creating `React class component` => type: `rcc` and for creating `React functional compoenent` type: `rsf`.
 
 
 
