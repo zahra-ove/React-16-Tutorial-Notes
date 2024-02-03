@@ -137,6 +137,16 @@ State in Functional Components (with Hooks):
 
 
 
+----------------------------------------------------
+
+list of all npm packages:
+`npm list -g --depth=0`
+
+
+----------------------------------------------------
+
+
+
 
    
 
