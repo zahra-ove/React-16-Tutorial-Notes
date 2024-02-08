@@ -147,9 +147,12 @@ list of all npm packages:
 
 in webstorm, install `react snippet` plugin and then for creating `React class component` => type: `rcc` and for creating `React functional compoenent` type: `rsf`.
 
+----------------------------------------------------
+
+در React ما همانند angular  به صورت پیشفرض، router نداریم زیرا  React یک   light weght library است که وظیفه  view rendering رو بر عهده دارد. بنابرابن برای داشتن Router نیاز است یک  third-party  library نصب کنیم به نام   `react-router-dom` با دستور    `npm i react-router-dom`.
 
 
-   
+   ----------------------------------------------------
 
 
 
