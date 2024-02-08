@@ -154,5 +154,8 @@ in webstorm, install `react snippet` plugin and then for creating `React class c
 
    ----------------------------------------------------
 
+if you should `optional parameters` in a url, its better to define them as `query string` instead of use them as `route param`.
 
+
+   ----------------------------------------------------
 
