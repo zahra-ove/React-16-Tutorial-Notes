@@ -158,4 +158,7 @@ if you should `optional parameters` in a url, its better to define them as `quer
 
 
    ----------------------------------------------------
+   a `null` or `undefined` value can not be set as a value for controlled element in React.
+   
+   ----------------------------------------------------
 
